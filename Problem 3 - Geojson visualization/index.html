@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>KC Commuter Stats</title>
+        <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.css" />
+		<script src="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+    </head>
+    <body>
+		<div class="contain_all">
+			<div id="title">Kansas City Commuter Infographic</div>
+			<div id="mapwindow"></div>
+			<div id="detail">
+<div id="detail">
+	<div class="detail_head">Click an area for a detailed chart of statistics</div>
+	<div class="stat_container">
+		<h5>Drive Alone: </h5>
+		<br>
+		<div class="stat_bar" style="width: 0"></div>
+	</div>
+	<div class="stat_container">
+		<h5>Carpool: </h5>
+		<br>
+		<div class="stat_bar" style="width: 0"></div>
+	</div>
+	<div class="stat_container">
+		<h5>Public Transit: </h5>
+		<br>
+		<div class="stat_bar" style="width: 0"></div>
+	</div>
+	<div class="stat_container">
+		<h5>Walk: </h5>
+		<br>
+		<div class="stat_bar" style="width: 0%"></div>
+	</div>
+	<div class="stat_container">
+		<h5>Drive Alone (per square km): </h5>
+		<br>
+		<div class="stat_bar" style="width: 0"></div>
+	</div>
+	<div class="stat_container">
+		<h5>Carpool (per square km): </h5>
+		<br>
+		<div class="stat_bar" style="width: 0"></div>
+	</div>
+	<div class="stat_container">
+		<h5>Public Transit (per square km): </h5>
+		<br>
+		<div class="stat_bar" style="width: 0"></div>
+	</div>
+	<div class="stat_container">
+		<h5>Walk (per square km): </h5>
+		<br>
+		<div class="stat_bar" style="width: 0%"></div>
+	</div>
+</div>
+</div>
+		<script src="assets/kc-neighborhoods.json"></script>
+		<script src="assets/kc-tracts.json"></script>
+		<script src="js/main.js"></script>
+		
+    </body>
+</html>

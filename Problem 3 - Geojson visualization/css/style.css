@@ -1,0 +1,92 @@
+#mapwindow { 
+	height: 650px;
+	width: inherit;
+	margin-left: 10px;
+	margin-top: 6px;
+	border: 3px solid lightblue;
+}
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 7px;
+}
+
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+	font: 13px/15px Arial, Helvetica, sans-serif;
+    line-height: 12px;
+    color: #555;
+}
+.legend i {
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+em {
+	font-style: italic;
+	color: #888;
+	font-size: 12px;
+}
+
+.contain_all {
+	width: 70%;
+	
+}
+
+#title {
+	font: 20px/22px Arial, Helvetica, sans-serif;
+	border: 3px solid lightblue;
+	background: #cce6ff;
+	width: inherit;
+	margin-left: 10px;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+}
+
+#mapwindow > div.leaflet-control-container > div.leaflet-bottom.leaflet-right > div.info.legend.leaflet-control:hover, #mapwindow > div.leaflet-control-container > div.leaflet-bottom.leaflet-left > div:hover {
+	border: 3px solid cornflowerblue;
+	margin:7px 7px 7px 7px
+}
+
+#mapwindow > div.leaflet-control-container > div.leaflet-bottom.leaflet-right > div.info.legend.leaflet-control:active, #mapwindow > div.leaflet-control-container > div.leaflet-bottom.leaflet-left > div:active {
+	background-color : lightblue;
+}
+
+.detail {
+	width: inherit;
+}
+.detail_head, .stat_container{
+	margin: 10px;
+	padding: 5px;
+	font: 18px/20px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	display: block;
+}
+
+h5 {
+	font: 16px/18px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	display: inline;
+}
+h6 {
+	font: 14px/16px Arial, Helvetica, sans-serif;
+	display: inline;
+}
+
+.stat_bar {
+	float:left;
+	height: 20px;
+	background-color: lightblue;
+}
