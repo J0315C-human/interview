@@ -32,7 +32,4 @@ Apologies/improvements:
 * I wanted to add a way to adjust the highlighting grades/thresholds.
 * There are a few css problems I tooled with for a while and couldn't fully iron out, for instance: at some zoom levels, the colored squares in the legend are displayed oddly.
 
-
-Thank you for taking the time to review this! I had fun preparing it. I hope to work with you soon.
-
--Anonymous
+-Joel
